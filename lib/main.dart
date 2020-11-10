@@ -19,10 +19,10 @@ class ViewState extends State {
   Color colorCode = Colors.white;
   final Random random = Random();
   generateRandomColor() {
-    Color tmpColor = Color(Random().nextInt(0xffffffff)).withAlpha(0xff);
+    Color randomColorCode = Color(Random().nextInt(0xffffffff)).withAlpha(0xff);
 
     setState(() {
-      colorCode = tmpColor;
+      colorCode = randomColorCode;
     });
   }
 
