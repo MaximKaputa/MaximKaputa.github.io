@@ -35,7 +35,6 @@ class ViewState extends State {
         child: Scaffold(
             backgroundColor: colorCode,
             body: Center(
-                child: Container(
               child: Text(
                 'Hey there',
                 textDirection: TextDirection.ltr,
@@ -44,6 +43,6 @@ class ViewState extends State {
                   color: Colors.black87,
                 ),
               ),
-            ))));
+            )));
   }
 }
